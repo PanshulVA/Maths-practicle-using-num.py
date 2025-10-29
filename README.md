@@ -1,9 +1,10 @@
 # ALL THE PRACTICLES OF MATHEMATIICS FOR COMPUTING SEMESTER 1
 ## Dependencies
-Python 3.13.7  
-Numpy Library  
-Sympy Library  
-### THE PRACTICLES
+**Python 3.13.7**  
+### Libraries
+**Numpy**    
+**Sympy**    
+## THE PRACTICLES
 1. Create and transform vectors and matrices (the transpose vector (matrix) conjugate
 a. transpose of a vector (matrix))  
 2. Generate the matrix into echelon form and find its rank.  
