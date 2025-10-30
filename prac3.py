@@ -1,12 +1,11 @@
 import numpy as np
 import sympy as sp
 
-A=np.array([[1,2,3],
-            [4,5,6],
-            [7,8,9]])
-B=np.array([[5,4,3],
-            [8,2,6],
-            [1,7,9]])
+NR= int(input("Enter the number of rows:"))
+NC= int(input("Enter the number of columns:"))
+print("Enter the entries in a single line (seperated by space)")
+entries = list (map(int, input().split()))
+A=np.array(entries).reshape(NR,NC)
 
 M = sp.Matrix(A)
 print("Matrix:\n", M)
