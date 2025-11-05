@@ -4,7 +4,7 @@ import sympy as sp
 NR= int(input("Enter the number of rows:"))
 NC= int(input("Enter the number of columns:"))
 print("Enter the entries in a single line (seperated by space)")
-entries = list (map(int, input().split()))
+entries = list (map(float, input().split()))
 A=np.array(entries).reshape(NR,NC)
 
 M = sp.Matrix(A)
