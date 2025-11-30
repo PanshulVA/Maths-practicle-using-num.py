@@ -6,8 +6,8 @@ NC= int(input("Enter the number of columns:"))
 print("Enter the entries in a single line (seperated by space)")
 entries = list (map(float, input().split()))
 A=np.array(entries).reshape(NR,NC)
-
 M = sp.Matrix(A)
+
 print("Matrix:\n", M)
 print("\nCofactor Matrix:\n", M.cofactor_matrix())
 print("\nDeterminant:", M.det())
