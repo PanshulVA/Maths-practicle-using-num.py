@@ -6,7 +6,6 @@ NC = int(input("Enter the number of variables: "))
 print("Enter the coefficients in a single line (separated by space):")
 entries = list(map(int, input().split()))
 A = np.array(entries).reshape(NR, NC)
-
 M = sp.Matrix(A)
 
 print("\nOriginal Coefficient Matrix A:")
